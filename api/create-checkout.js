@@ -1,6 +1,6 @@
 const Stripe = require('stripe');
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-const VALID_PRICE_IDS = ['price_1TQajkKDG5iIPcN6oO7cBUlm','price_1TQbZqKDG5iIPcN6uPTWLLbP','price_1TQbJ1KDG5iIPcN6KKkEze92'];
+const VALID_PRICE_IDS = ['price_1TQajkKDG5iIPcN6oO7cBUlm','price_1TQbZqKDG5iIPcN6uPTWLLbP','price_1TQbJ1KDG5iIPcN6KKkEze92','price_1TR8iAKDG5iIPcN6HnR1HOPk'];
 module.exports = async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
